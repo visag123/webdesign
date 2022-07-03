@@ -1,0 +1,54 @@
+.crew{
+    width: 550px;
+    height: auto;
+    padding: 20px;
+    float: right;
+
+}
+.new_create{
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 254, 254);
+    padding:0px 40px;
+
+}
+.new_acc{
+    display: flex;
+
+}
+.new_acc div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.new_acc label{
+    margin-left: 5px;
+    color: #0ad0bc;
+    font-weight: bold;
+}
+.new_acc input{
+ border: none;
+ outline: none;
+ background: none;
+ padding-left: 5px;
+ color: rgb(107, 89, 89);
+ font-size: 15px;
+ border-bottom: 1px solid #17ac9d;
+}
+.new_submit{
+    /* margin-bottom: 20px; */
+    padding: 4px 0px;
+    border-radius: 20px;
+    margin: 20px 0px 20px 50px;
+    width: 200px;
+    text-align: center;
+}
+.new_submit button{
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px 0px;
+    background: #17ac9d;
+    border: none;
+    color: white;
+}

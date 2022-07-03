@@ -1,0 +1,91 @@
+.editpage_content{
+     display: flex;
+}
+.editpage_maincontent{
+    width: 100%;
+    background:#f8f8f9;
+}
+.editpage_search{
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 95%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+}
+.editpage_search form{
+    height: 100%;
+    padding: 8px;
+    background: #dbdde2;
+    text-align: center;
+    border-radius: 5px;
+}
+.editpage_search button{
+    border: none;
+    background: #dbdde2;
+    padding-right: 10px;
+}
+.editpage_search input{
+    border: none;
+    outline: #F5F6F8;
+    font-size: 15px;
+    background:#dbdde2 ;
+    
+    /* padding: 1px; */
+}
+.editpage_edit{
+    width: 95%;
+    margin: auto;
+}
+.edit{
+    width: 700px;
+    margin:20px auto;
+    border: 1px solid rgb(234, 230, 230);
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffff;
+    border-radius: 6px;
+
+}
+
+.edit input{
+    width: 280px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #17ac9d;
+    
+}
+.edit button{
+    width: 200px;
+    margin-left: 40px;
+    background-color: #17ac9d;
+    border-radius: 5px;
+    border: none;
+}
+.edit button:hover{
+    background-color: #17ac9d;
+
+}
+.edit label{
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: #17ac9d;
+}
+.edit select{
+    font-size: 15px;
+    width: 280px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid #17ac9d;
+
+}
+.edit option{
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #17ac9d;
+}

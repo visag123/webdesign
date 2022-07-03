@@ -1,0 +1,93 @@
+
+.sign{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 2px 20px;
+    /* background: rgb(190, 206, 216); */
+    background: #ffff;
+
+    
+}
+.signup_header{
+    width: 90%;
+    height: 50px;
+    margin: 5px auto;
+    /* background: rgb(190, 206, 216); */
+
+    padding: 10px;
+    border-radius: 10px;
+}
+.signup_header p{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px 10px 20px;
+    height: 100%;
+    color: red;
+    float: right;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+.signup_home{
+    
+    height: 450px;
+    width: 800px;
+    margin:10px 50px;
+    background: #ffff;
+    float: left;
+    border-radius: 10px;
+
+  
+}
+.signup_home img{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid rgb(255, 255, 255); */
+   /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2); */
+
+    border-radius: 10px;
+
+}
+.signup{
+    
+    width: 380px;
+    height: 500px;
+    border: 1px solid rgb(245, 243, 243);
+    border-radius: 10px;
+    /* background: rgb(241, 238, 238); */
+
+    padding: 20px;
+   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+    float: right;
+    
+}
+.signup small{
+    color: red;
+}
+.signup input{
+    height:30px ;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #17ac9d;
+}
+.signup button{
+    background-color: #17ac9d;
+    width: 333px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+}
+.signup button:hover{
+    background-color: #17ac9d;
+
+}
+.signup label{
+    color: #17ac9d;
+    margin-bottom: 5px;
+}
